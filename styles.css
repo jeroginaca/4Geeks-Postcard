@@ -1,18 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
 * {
-	border: 1px dashed red;
+	/*border: 1px dashed red; */
 	min-height: 10px;
 }
 
 body {
 	background: black;
+	font-family: "Dancing Script", cursive;
 }
 
 p {
-	font-size: 18px;
+	font-size: 12px;
 }
 
 .postcard {
-	background-color: white;
+	background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 29%, rgba(255, 255, 255, 0.4) 100%),
+		url(https://img.freepik.com/free-photo/white-paper-texture_1194-2324.jpg?w=360);
+	background-repeat: no-repeat;
+	background-size: cover;
 	width: 400px;
 	height: 300px;
 	margin: auto;
@@ -20,6 +25,7 @@ p {
 
 .postcard-header {
 	display: flex;
+	padding: 10px 10px 0 10px;
 }
 
 .postcard-header img {
@@ -46,6 +52,7 @@ p {
 }
 
 input {
+	font-family: "Dancing Script", cursive;
 	border: none;
 	border-bottom: 1px solid grey;
 }
@@ -55,6 +62,7 @@ input {
 }
 
 button {
+	font-family: "Dancing Script", cursive;
 	background-color: grey;
 	padding: 10px;
 }
